@@ -1,0 +1,58 @@
+@import './constants.css';
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 10rem 0rem 10rem;
+  background-color: var(--whitebg)
+}
+
+.logo {
+  height: 15vmin;
+}
+
+.header-btn {
+  background-color: var(--blueoficeland);
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-btn.ask{
+  background-color: lightgray;
+  border-color: var(--blueoficeland);
+  color: var(--blueoficeland);
+}
+
+main {
+  background-color: var(--blueoficeland);
+  padding: 20px;
+}
+
+.searchWrapper{
+  display: flex;
+  height: 250px;
+}
+
+.search-input{
+    width: 40%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.tabcontainer{
+  background-color: lightgray;
+  text-align: -webkit-center;
+  padding:20px;
+}
+
+.answerWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 10rem 0rem 10rem;
+}
