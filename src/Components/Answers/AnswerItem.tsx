@@ -28,7 +28,7 @@ function AnswerItem() {
             </div>
             <div className={styles.thumbs}>
                 <div className={`${styles.thumb} ${styles.thumbgreen}`}>
-                <ThumbsUp theme="outline" size="20" fill="#497523"/>
+                    <ThumbsUp theme="outline" size="20" fill="#497523"/>
                     1500
                 </div>
                 <div className={`${styles.thumb} ${styles.thumbred}`}>
